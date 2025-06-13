@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;400&family=Poppins:wght@400;600&display=swap');
+
+.animacion {
+    font-family: 'Open Sans', sans-serif;
+
+}
+.introduccion {
+    background-color: rgb(145, 69, 143);   
+    color: rgb(16, 7, 7); 
+    margin: 20px; 
+    outline: auto; 
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    padding: 20px;
+    
+}
+
+.menu {
+    background-color: rgb(209, 142, 192);   
+    color: rgb(16, 7, 7); 
+    margin: 20px; 
+    outline: auto; 
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    padding: 20px;
+}
+
+.gatos {
+    background-color: rgb(189, 146, 229);   
+    color: rgb(16, 7, 7); 
+    margin: 20px; 
+    outline: auto; 
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    padding: 20px;
+}
+
+
+.horarios {
+    background-color: rgb(209, 142, 192);   
+    color: rgb(16, 7, 7); 
+    margin: 20px; 
+    outline: auto; 
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    padding: 20px;
+}
+
+
+.ubicacion {
+    background-color: rgb(189, 146, 229);   
+    color: rgb(16, 7, 7); 
+    margin: 20px; 
+    outline: auto; 
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    padding: 20px;
+}
+
+.mapa {
+    background-color: rgb(209, 142, 192);   
+    color: rgb(16, 7, 7); 
+    margin: 20px; 
+    outline: auto; 
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    padding: 20px;
+   
+}
+
+img {
+    margin: 20px; 
+    transition: transform 0.3s ease;
+    border-radius: 10px;  
+}
+
+p, h1, h2, h4, i{
+    padding: 10px; 
+}
+
+button {
+    background-color: #330654;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover {
+    background-color: #510876;
+    transform: scale(1.1);
+}
+
+.introduccion:hover, .gatos:hover, .menu:hover, .horarios:hover, .ubicacion:hover, .mapa:hover {
+    transform: scale(1.02);  
+}
+
+.gato {
+    position: relative;
+    cursor: pointer;
+    width: 177px;
+    height: 160px;
+    left: 0;
+    transition: left 5s cubic-bezier(0, 0, 1, 1);
+    
+}
+
+
+
+
+
+
+
+

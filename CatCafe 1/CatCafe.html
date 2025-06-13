@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <h1 class="title"> Café Bigotes  </h1>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="index.css"> 
+</head>
+<body>
+        <img class="gato" src="https://www.shutterstock.com/shutterstock/videos/4094146/thumb/6.jpg?ip=x480" onclick="this.style.left='450px'">
+
+        <div class = "animacion">
+            <p>
+                ¡Toca al gato para que se mueva!
+            </p>
+        </div>4
+        
+        <button type="button" onclick="miFuncion()">Otra foto</button>
+        <button type="button" onclick="darkMode()">Dark Mode</button>
+
+
+    <div class= "introduccion">
+        <header>
+            <h1> Cat Cafe </h1> 
+        </header>
+            <h2> Descripción </h2>
+            <p>
+                Bienvenidos a Cat Cafe, un refugio donde el café se mezcla con la magia de los gatos. Disfruta de una deliciosa taza de café, té o un antojito mientras te relajas en la compañía de adorables gatos. Nuestro espacio está diseñado para brindarte un ambiente tranquilo y acogedor, ideal para disfrutar de un momento de calma o pasar un rato agradable con amigos. 
+            </p>
+    </div>
+
+    
+    <div class="menu" >
+        <h2> Menú Semanal </h2>
+        <div id = "menu"></div>
+        <div id = "menu1"></div>
+        <div id = "menu2"></div>
+        <div id = "menu3"></div>
+        <div id = "menu4"></div>
+        <div id = "menu5"></div>
+        <script>
+            window.onload = function() {
+                 menu();  
+            }
+        </script>
+    </div>
+
+    <div class="gatos">
+            <h2> Estos son nuestros gatitos </h2>
+            <h4>ANA</h4>
+            <img src="https://i.pinimg.com/736x/d0/1a/bd/d01abded9c7790119f861ed80c2cccdb.jpg" width="300"/>
+            <button type="button" onclick="gato('ana')">Información de Ana</button>
+            <div id="contenido"></div>
+          
+
+            <h4>MARÍA</h4>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBjb-ZjjzVh52Xn-pg67OLBd-GVzT5-ek5wg&s" width="300"/>
+            <button type="button" onclick="gato('maría')">Información de María</button>
+            <div id="contenido1"></div>
+            
+            <h4>SOFIA</h4>
+            <img src="https://www.mujerde10.com/wp-content/uploads/2023/08/accesorios-kawaii-para-gatitos.jpg" width="300"/>
+            <button type="button" onclick="gato('sofía')">Información de Sofia</button>
+            <div id="contenido2"></div>
+
+            <h4>CAMILA</h4>
+            <img src="https://i.pinimg.com/236x/7a/4d/9d/7a4d9db97cf12ac961ae77610995cd12.jpg" width="300"/>
+            <button type="button" onclick="gato('camila')">Información de Camila</button>
+            <div id="contenido3"></div>
+
+    
+            <h4>KAREN</h4>
+            <img src="https://i.pinimg.com/1200x/86/5c/40/865c40a5a12fba846c9042003409c5d0.jpg" width="300"/>
+            <button type="button" onclick="gato('karen')">Información de Karen</button>
+            <div id="contenido4"></div>
+    </div>
+
+    <div class= "horarios">
+            <h2>Horarios</h2>
+            <p> 
+               Abierto de Lunes a Viernes de las 9 a.m. a las 14:00 p.m.
+            </p>
+    </div>
+
+    <div class= "ubicacion">
+
+            <h2>Ubicación</h2>
+            <i>
+                Ubicado en el corazón de la ciudad, en la calle Puesta del Sol número 14, justo a unos pasos del Parque Felinos.
+            </i>
+            <script src="index.js"></script>
+            <script>
+                console.log("Desplego correctamente div");
+                for (let i = 0; i < 2; i++) {
+                console.log(" |\---/| ");
+                console.log(" | o_o | ");
+                console.log("  \_^_/  ");
+                }
+            </script>
+    </div>
+
+    <div class= "mapa">
+            <h2>Mapa</h2>
+            <img src="https://i.blogs.es/7a5f56/mapas-tiempo-real/450_1000.jpg" width="300"/>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Café Bigotes</title>
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="cafeBigotes.css">
+
+  <!-- Bootstrap JS  -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+  ></script>
+
+  <!-- jQuery (versión 3.6.4) desde Google Hosted Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <!-- link .js -->
+  <script src="cafeBigotes.js"></script>  
+
+
+</head>
+<body>
+  <div class="container-fluid">
+
+    <!--Nombre café -->
+    <div class="row hero bg-cafe text-white mb-4">
+      <div class="col-12">
+        <div id = "nombre" ></div>
+      </div>
+    </div>
+
+  <!--Título y el gato -->
+  <div class="row text-dark text-center mb-4">
+    <div class="col-12">
+      <div id="animacion"></div>
+    </div>
+  </div>
+
+    <!--Descripción -->
+    <div class="row border p-5">
+      <div class="col-12">
+        <div id = "descripcion" ></div>
+      </div>
+    </div>
+    
+
+    <!--Menú Semanal y Logo -->
+    <div class="row border p-5 align-items-center">
+      <div class="col-md-6">
+        <p id="menu"></p>
+      </div>
+      <div class="col-md-4">
+        <div id ="logo"></div>
+      </div>
+    </div>
+
+    <!--Gatitos  -->
+      <div class="row border p-5">
+        <div id = "tituloGatos"></div>
+      </div>
+
+    <!-- Gatos -->
+    <div id="contenedorGatos"></div>
+ 
+
+    <!-- Horarios -->
+    <div class="row p-5">
+      <div class="col-12">
+        <div id = "horarios"></div>
+      </div>
+    </div>
+    
+    <!-- Ubicación -->
+    <div class="row p-5">
+      <div class="col-12">
+        <div id = "ubicacion"></div>
+      </div>
+    </div>
+
+    <!-- Mapa -->
+    <div class="row p-5">
+      <div class="col-12">
+        <div id = "mapa"></div>
+      </div>
+    </div>
+
+    <!-- Fila 7: Login Mejorado -->
+<div class="row p-5 d-flex justify-content-center">
+  <div class="col-md-6">
+      <div class="card bg-cafe2 text-white shadow-lg rounded">
+          <div class="card-body p-4">
+              <h2 class="text-center mb-4">Iniciar Sesión</h2>
+              <form id="loginForm">
+                  <div class="mb-3">
+                      <label for="uusuario" class="form-label">Usuario:</label>
+                      <input type="text" id="uusuario" name="uusuario" class="form-control" placeholder="Ingresa tu usuario">
+                  </div>
+                  <div class="mb-3">
+                      <label for="cusuario" class="form-label">Contraseña:</label>
+                      <input type="password" id="cusuario" name="cusuario" class="form-control" placeholder="Ingresa tu contraseña">
+                  </div>
+                  <div class="text-center">
+                      <button type="button" id="loginBtn" class="btn btn-light text-cafe2 fw-bold px-4">Iniciar sesión</button>
+                  </div>
+                  <p id="result" class="mt-3 text-center"></p>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+     <!-- Fila 8: Sign Up -->
+     <div class="row p-5 d-flex justify-content-center">
+      <div class="col-md-6">
+        <div class="card bg-cafe2 text-white shadow-lg rounded">
+          <div class="card-body p-4">
+            <h2 class="text-center mb-4"> Registrarse</h2>
+            <form>
+              <div class="mb-3">
+                <label for="uusuario" class="form-label">Usuario:</label>
+                <input type="text" id="uusuario" name="uusuario" class="form-control" placeholder="Ingresa tu usuario">
+              </div>
+              <div class="mb-3">
+                <label for="cusuario" class="form-label">Contraseña:</label>
+                <input type="password" id="cusuario" name="cusuario" class="form-control" placeholder="Ingresa tu contraseña">
+              </div>
+              <div class="text-center">
+                <button type="button" id="signupBtn" class="btn btn-light text-cafe2 fw-bold px-4">Registrarse</button>
+              </div>
+              <p id="result" class="mt-3 text-center"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+
+  </div>
+</body>
+</html>

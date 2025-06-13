@@ -1,0 +1,36 @@
+<script>
+    function fribonacci(){
+        let x = 0;
+        let y = 1;
+        for (let i = 0; i < 20; i++){
+            console.log(y);
+            let tmp= x;
+            x = y
+            y = x + y;
+
+        }
+    }
+
+    function aureo(){
+        let x = 0;
+        let y = 0;
+        for (let i = 0; i < 10; i++){
+            console.log(y/x);
+            let tmp= x;
+            x = y
+            y = tmp + y;
+
+        }
+    }
+
+    function arbol(x){
+        for (let i = 0; i < x; i++){
+            let espacio = " ";
+            let asterisco = "*";
+           
+        }
+    }
+</script>
+<button type = "button" onclick = "fribonacci()"> fribonacci </button>
+<button type = "button" onclick = "aureo()"> aureo </button>
+<button type = "button" onclick = "arbol()"> arbol </button>

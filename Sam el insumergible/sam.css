@@ -1,0 +1,14 @@
+.bg-gris {
+    background-color: #c9c9c9; 
+  }
+
+
+.barcos {
+  max-width: 300px;   
+  height: auto;      
+  display: block;   
+  margin: 10px auto;  
+  border-radius: 10px;
+}
+
+

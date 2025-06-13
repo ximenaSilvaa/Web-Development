@@ -1,0 +1,16 @@
+.bg-cafe {
+    background-color: #6c3c15; 
+  }
+
+.bg-cafe2 {
+    background-color: #cf9e75; 
+}
+
+.gato {
+  position: relative;
+  cursor: pointer;
+  width: 230px;
+  height: 250px;
+  left: 0;
+  transition: left 5s cubic-bezier(0, 0, 1, 1);
+}
